@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  color: grey;
+  line-height: 1.5em;
+}
+
+:root {
+  --background-image: linear-gradient(to bottom right, rgb(48, 58, 199), rgb(135, 189, 224));
+}
+
+.home-banner-area {
+  background-image: var(--background-image);
+  /* margin-top: -67px; */
+}
+
+/* utilitis */
+.box-width {
+  margin-inline: 90px;
+  display: flex;
+  column-gap: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.fa-phone {
+  color: white;
+  margin-right: 5px;
+}
+
+/* fixed share button */
+.shareit {
+  position: fixed;
+  top: 150px;
+}
+
+.shareit a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: blue;
+	opacity: 0.75;
+	transition: opacity 0.15s linear;
+  text-decoration: none;
+}
+
+.bg {
+  background-color: white;
+}
+
+.shareit a:hover{
+  color: black;
+}
+
+/* End fixed share area */
+
+/* header */
+@media screen and (min-width: 571px){
+.mobile-banner {
+  display: none;
+}
+}
+
+.container-banner-area {
+  min-height: 700px;
+  padding: 30px;
+  background-color: #f0f8ff;
+  position: relative;
+  bottom: -200px;
+  border-radius: 12px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.profile img {
+  width: 722px;
+  border-radius: 10px;
+}
+
+.header-content {
+  width: 30%;
+}
+
+.header-content h6 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.header-content p {
+  margin-bottom: 50px;
+}
+
+.fa-envelope {
+  font-size: medium;
+}
+
+.fa-house {
+  font-size: medium;
+}
+
+.cta {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.cta-2 {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.cta a[href="mailto:soupritsantra02@gmail.com"] {
+  text-decoration: none;
+  color: grey;
+}
+
+
+/* Education Section */
+
+.edu-h4 {
+  padding: 10px 0px;
+}
+
+.education {
+  display: flex;
+  column-gap: 20px;
+  
+}
+
+.education ul li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* skill-section */
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  padding-inline: 120px;
+  align-items: center;
+}
+
+.content-skill-section {
+  padding: 50px 10px;
+}
+
+.content-skill-section i {
+  font-size: x-large;
+  padding-right: 5px;
+}
+/* Icon Color */
+.fa-html5 {
+  color: rgb(255, 72, 0);
+}
+
+.fa-css3-alt {
+  color: rgb(24, 24, 202);
+}
+
+.fa-elementor {
+  color: rgb(196, 48, 73);
+}
+
+.fa-wordpress {
+  color: rgb(52, 138, 172);
+}
+
+/* My Offer */
+.my-offer {
+  background-color: #f0f8ff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+}
+
+.offer h4 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.offer-desc {
+  display: flex;
+  padding-inline: 120px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.left-div {
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+.right-div {
+  max-width: 500px;
+  margin-left: 10px;
+
+}
+
+.offer-desc h2 {
+  color: blue;
+  font-size: 22px;
+  padding-bottom: 4px;
+  font-weight: 300;
+}
+
+.offer-desc h2:hover {
+  color: rgb(59, 0, 99);
+}
+
+.offer-desc p {
+  font-size: medium;
+}
+
+.footer {
+  display: flex;
+  padding: 120px;
+  background-color: #2b3035;
+}
+
+.footer-content-f {
+  width: 70%;
+}
+
+.footer-content-l {
+  width: 30%;
+}
+
+.footer-content-f h4 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footer-content-f p {
+  margin-right: 30%;
+}
+
+.footer-content-l h4 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.fi i {
+  color: grey;
+  padding-left: 5px;
+  font-size: x-large;
+}
+
+.fi i:hover {
+  cursor: pointer;
+}

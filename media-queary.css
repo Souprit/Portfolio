@@ -1,0 +1,40 @@
+@media screen and (max-width: 991px) {
+   .container-banner-area {
+      bottom: -100px;
+   }
+}
+
+
+
+@media screen and (max-width: 991px) {
+ .profile img{
+    width: 588px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+.box-width {
+   display: block;
+   margin-inline: 62px;
+}
+}
+
+@media screen and (max-width: 991px) {
+   .header-content {
+      width: 100%;
+      margin-top: 15px;
+   }
+}
+
+@media screen and (max-width: 991px) {
+.left-div, .right-div {
+   max-width: 292px;
+   margin-right: 10px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+.offer-desc, .footer {
+   padding-inline: 80px;
+}
+}
